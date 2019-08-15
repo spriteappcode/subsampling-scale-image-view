@@ -16,11 +16,14 @@ buildscript {
         mavenCentral()
         jcenter()
         google()
+        maven { url "https://www.jitpack.io" }
+
 
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:3.2.1'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'//this
+
 
     }
 }
