@@ -1,5 +1,6 @@
 apply plugin: 'com.android.library'
 
+apply plugin: 'com.github.dcendents.android-maven'//this
 group = 'com.github.sprite'
 archivesBaseName = 'subsampling-scale-image-view'
 version = '3.10.1'
